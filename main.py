@@ -40,7 +40,7 @@ s3 = boto3.client(
     region_name='us-east-1',
 )
 
-bucket_name = 'pruebaexamenawsinstanciacreada'
+bucket_name = 'juancopruebaexamenawsinstanciacreada'
 
 try:
     # Crear el bucket correctamente (us-east-1 doesn't need LocationConstraint)
